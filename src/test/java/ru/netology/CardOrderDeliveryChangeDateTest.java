@@ -30,7 +30,8 @@ public class CardOrderDeliveryChangeDateTest {
         $("[data-test-id='phone'] input").setValue(user.getPhone());
         $(".checkbox__box").click();
         $x("//span[contains(text(),'Запланировать')]").click();
-        $("[data-test-id='success-notification']").shouldBe(visible, Duration.ofSeconds(15)).shouldHave(Condition.text("Встреча успешно запланирована на " + planningDate));
+        $("[data-test-id='success-notification']").shouldBe(visible, Duration.ofSeconds(15))
+                .shouldHave(Condition.text("Встреча успешно запланирована на " + planningDate));
 
         $("[data-test-id='city'] input").setValue(ClearField.deleteString);
         $("[data-test-id='city'] input").setValue(user.getCity());
@@ -41,16 +42,16 @@ public class CardOrderDeliveryChangeDateTest {
         $("[data-test-id='phone'] input").setValue(ClearField.deleteString);
         $("[data-test-id='phone'] input").setValue(user.getPhone());
         $x("//span[contains(text(),'Запланировать')]").click();
-        $x(".//div [contains(text(), 'У вас уже запланирована встреча на другую дату. Перепланировать?')]").shouldBe(visible, Duration.ofSeconds(15));
+        $x(".//div [contains(text(), 'У вас уже запланирована встреча на другую дату. Перепланировать?')]")
+                .shouldBe(visible, Duration.ofSeconds(15));
         $x(".//span[contains(text(), 'Перепланировать')]").click();
-        $("[data-test-id='success-notification']").shouldBe(visible, Duration.ofSeconds(15)).shouldHave(Condition.text("Встреча успешно запланирована на " + newPlanningDate));
+        $("[data-test-id='success-notification']").shouldBe(visible, Duration.ofSeconds(15))
+                .shouldHave(Condition.text("Встреча успешно запланирована на " + newPlanningDate));
 
 
     }
 }
 
-
-//
 
 
 
