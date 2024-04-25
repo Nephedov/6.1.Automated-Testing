@@ -10,20 +10,22 @@
  * <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/9625843a3c33c58e18bcc64b7c9c6719197ba7e4/src/test/java/ru/netology/RegHelper.java">RegHelper.java</a>. - класс на создания тестового пользователя.
  * <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/9625843a3c33c58e18bcc64b7c9c6719197ba7e4/src/test/java/ru/netology/AuthTest.java">AuthTest.java</a>. - класс с автотестами.
 ## Что было сделано
-  * Создан и настроен Gradle проект с зависимостями:
-    * JunitJupier.
-    * Selenide.
-    * Faker.
+  * Создан и настроен Gradle проект
+    * с зависимостями:
+    	* JunitJupier.
+    	* Selenide.
+    	* Faker.
     * Подключен к проекту AppVeyor. Настроен appveyor.yml. Добавлен бейдж в README.md, о статусе сборки при пуше.
     * Автоматизировано тестирование новой функции формы заказа доставки карты.
     * Создан служебный класс получения тестовых данных.
-  * Создан и настроен Gradle проект с зависимостями:
-    * JunitJupier.
-    * Selenide.
-    * Faker.
-    * Rest-Assured.
-    * GoogleCodeJSON.
-    * Lombok.
+  * Создан и настроен Gradle проект
+    * с зависимостями:
+    	* JunitJupier.
+        * Selenide.
+    	* Faker.
+    	* Rest-Assured.
+    	* GoogleCodeJSON.
+    	* Lombok.
     * Подключен к проекту AppVeyor. Настроен appveyor.yml. Добавлен бейдж в README.md, о статусе сборки при пуше.
     * Реализованы автотесты на авторизацию, с предусловием создания тестового пользователя через API запрос.
     * Создан служебный класс с API запросом на создание нового пользователя.
