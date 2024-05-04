@@ -4,38 +4,38 @@
 
 ## Решения
 ### Задание 1
- * <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/76ef7abd12897553c69a9763b5d1be0cc3a1ece6/src/test/java/ru/netology/DataGenerator.java">DataGenerator.java</a>. - класс для генерации тестовых данных.
- * <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/76ef7abd12897553c69a9763b5d1be0cc3a1ece6/src/test/java/ru/netology/CardOrderDeliveryChangeDateTest.java">CardOrderDeliveryChangeDateTest.java</a>. - класс с автотестами.
+ * <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/main/src/test/java/ru/netology/DataGenerator.java">DataGenerator.java</a>. - класс для генерации тестовых данных.
+ * <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/main/src/test/java/ru/netology/CardOrderDeliveryChangeDateTest.java">CardOrderDeliveryChangeDateTest.java</a>. - класс с автотестами.
 
 <a href="https://github.com/Nephedov/6.1.Automated-Testing">Репозиторий</a> с проектом.
 ### Задание 2
- * <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/9625843a3c33c58e18bcc64b7c9c6719197ba7e4/src/test/java/ru/netology/RegHelper.java">RegHelper.java</a>. - класс на создания тестового пользователя.
- * <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/9625843a3c33c58e18bcc64b7c9c6719197ba7e4/src/test/java/ru/netology/AuthTest.java">AuthTest.java</a>. - класс с автотестами.
+ * <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/main/src/test/java/ru/netology/RegHelper.java">RegHelper.java</a>. - класс для создания тестового пользователя.
+ * <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/main/src/test/java/ru/netology/AuthTest.java">AuthTest.java</a>. - класс с автотестами.
 
 <a href="https://github.com/Nephedov/6.2.Automated-Testing">Репозиторий</a> с проектом.
 ## Что было сделано
 ### Задание 1
-* Настроен <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/d8455d3e2cfe32ce9782c2f6e98ef6e4bc7057bd/build.gradle">build.gradle</a> с зависимостями:
+* Настроен <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/main/build.gradle">build.gradle</a> с зависимостями:
 	* JunitJupier.
 	* Selenide.
 	* Faker.
 	* Lombok.
-* Подключен к проекту AppVeyor. Настроен <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/d8455d3e2cfe32ce9782c2f6e98ef6e4bc7057bd/.appveyor.yml">appveyor.yml</a>. Добавлен бейдж в README.md, о статусе сборки при пуше.
-* Создан <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/d8455d3e2cfe32ce9782c2f6e98ef6e4bc7057bd/.gitignore">.gitignore</a>.
-* Автоматизированы тестовые сценарии новой функции формы заказа доставки карты - <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/d8455d3e2cfe32ce9782c2f6e98ef6e4bc7057bd/src/test/java/ru/netology/CardOrderDeliveryChangeDateTest.java">CardOrderDeliveryChangeDateTest.java</a>.
-* Создан служебный класс получения тестовых данных - <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/d8455d3e2cfe32ce9782c2f6e98ef6e4bc7057bd/src/test/java/ru/netology/DataGenerator.java">DataGenerator.java</a>.
+* Подключен к проекту AppVeyor. Настроен <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/main/.appveyor.yml">appveyor.yml</a>. Добавлен бейдж в README.md, о статусе сборки при пуше.
+* Создан <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/main/.gitignore">.gitignore</a>.
+* Автоматизированы тестовые сценарии новой функции формы заказа доставки карты - <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/main/src/test/java/ru/netology/CardOrderDeliveryChangeDateTest.java">CardOrderDeliveryChangeDateTest.java</a>.
+* Создан служебный класс получения тестовых данных - <a href="https://github.com/Nephedov/6.1.Automated-Testing/blob/main/src/test/java/ru/netology/DataGenerator.java">DataGenerator.java</a>.
 ### Задание2
-* Настроен <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/9625843a3c33c58e18bcc64b7c9c6719197ba7e4/build.gradle">build.gradle</a> с зависимостями:
+* Настроен <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/main/build.gradle">build.gradle</a> с зависимостями:
 	* JunitJupier.
 	* Selenide.
 	* Faker.
 	* Rest-Assured.
 	* GoogleCodeJSON.
 	* Lombok.
-* Подключен к проекту AppVeyor. Настроен <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/9625843a3c33c58e18bcc64b7c9c6719197ba7e4/.appveyor.yml">appveyor.yml</a>. Добавлен бейдж в README.md, о статусе сборки при пуше.
-* Создан <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/9625843a3c33c58e18bcc64b7c9c6719197ba7e4/.gitignore">.gitignore</a>.
-* Реализован служебный класс, описывающий API запросы создания пользователя - <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/9625843a3c33c58e18bcc64b7c9c6719197ba7e4/src/test/java/ru/netology/RegHelper.java">RegHelper.java</a>.
-* Реализованы автотесты на авторизацию, с предусловием создания тестового пользователя через API запрос - <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/9625843a3c33c58e18bcc64b7c9c6719197ba7e4/src/test/java/ru/netology/AuthTest.java">AuthTest.java</a>.
+* Подключен к проекту AppVeyor. Настроен <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/main/.appveyor.yml">appveyor.yml</a>. Добавлен бейдж в README.md, о статусе сборки при пуше.
+* Создан <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/main/.gitignore">.gitignore</a>.
+* Реализован служебный класс, описывающий API запросы создания пользователя - <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/main/src/test/java/ru/netology/RegHelper.java">RegHelper.java</a>.
+* Реализованы автотесты на авторизацию, с предусловием создания тестового пользователя через API запрос - <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/main/src/test/java/ru/netology/AuthTest.java">AuthTest.java</a>.
 
 ## Задача №1: заказ доставки карты (изменение даты)
 
