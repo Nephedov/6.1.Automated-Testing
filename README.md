@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/5250f2101uwt866p?svg=true)](https://ci.appveyor.com/project/Nephedov/cardorderdeliverychangedate)
 
-# Домашнее задание к занятию «2.3. Patterns»
+# «Patterns»
 
 ## Решения
 ### Задание 1
