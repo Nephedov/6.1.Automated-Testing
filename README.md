@@ -37,6 +37,10 @@
 * Реализован служебный класс, описывающий API запросы создания пользователя - <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/main/src/test/java/ru/netology/RegHelper.java">RegHelper.java</a>.
 * Реализованы автотесты на авторизацию, с предусловием создания тестового пользователя через API запрос - <a href="https://github.com/Nephedov/6.2.Automated-Testing/blob/main/src/test/java/ru/netology/AuthTest.java">AuthTest.java</a>.
 
+---
+---
+
+
 ## Описание Задания №1: заказ доставки карты (изменение даты)
 
 Вам необходимо автоматизировать тестирование новой функции формы заказа доставки карты:
